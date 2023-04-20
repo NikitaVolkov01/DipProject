@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_articles"
+        android:icon="@drawable/ic_newspaper_24"
+        android:title="@string/title_articles"
+        android:orderInCategory="1" />
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_map_24"
+        android:title="@string/title_map"
+        android:orderInCategory="2" />
+
+    <item
+        android:id="@+id/navigation_camera"
+        android:icon="@drawable/ic_camera_24"
+        android:title="@string/title_camera"
+        android:orderInCategory="3" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_account_24"
+        android:title="@string/title_profile"
+        android:orderInCategory="4" />
+
+</menu>
